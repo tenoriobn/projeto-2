@@ -1,0 +1,17 @@
+:root {
+    /* Cores */
+    --amarelo: #F59E00;
+    --azul: #0432DF;
+    --azul-escuro: #020D37;
+    --branco: #FFFFFF;
+    --branco-gelo: #EEEEEE;
+    --branco-optico: #FAFAFA;
+    --cinza: #ACAFB8;
+    --preto: #000000;
+    --roxo-claro: #4C526A;
+
+    /* Fontes */
+
+    --inter: 'Inter', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}

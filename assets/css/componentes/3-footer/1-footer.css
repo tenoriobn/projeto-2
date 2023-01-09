@@ -1,0 +1,30 @@
+.rodape {
+    background-color: var(--azul-escuro);
+}
+
+.rodape__paragrafo {
+    color: var(--cinza);
+    line-height: 1.505rem;
+    width: 18.75rem;
+}
+
+.footer__direitos {
+    color: var(--cinza);
+    line-height: 1.505rem;
+    margin-bottom: 0!important;
+}
+
+.footer__menu--lista {
+    text-transform: none;
+}
+
+.footer__lista--titulo {
+    color: var(--branco-gelo);
+    font-weight: 600;
+    line-height: 1.38rem;
+}
+
+.menu__item {
+    color: var(--cinza);
+    text-decoration: none;
+}

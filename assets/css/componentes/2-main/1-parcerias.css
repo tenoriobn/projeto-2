@@ -1,0 +1,19 @@
+.parcerias {
+    background-color: var(--branco-optico);
+    padding-top: 3.5rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.parcerias__subtitulo {
+    color: var(--azul-escuro);
+    font-family: var(--poppins);   
+    text-align: center;
+
+    width: 18.75rem;
+}
+
+@media screen and (min-width: 768px) {
+    .parcerias__subtitulo {  
+        width: 40rem;
+    }
+}

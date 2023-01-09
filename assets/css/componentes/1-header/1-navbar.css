@@ -1,0 +1,49 @@
+.cabecalho__navbar {
+    border-bottom: 1px solid #ffffff6b;
+}
+
+.navbar__button {
+    border: none!important;
+
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.navbar__button:focus {
+    box-shadow: none!important;
+}
+
+.navbar-icon {
+    background-image: url(../../../img/icon/menu-hamburguer.svg);
+}
+
+.navbar__lateral {
+    width: 100%!important;
+}
+
+.navbar__link {
+    color: var(--branco);
+    opacity: 0.6;
+}
+
+.navbar__link:focus {
+    color: #9b9a9a;
+}
+
+.navbar__btn {
+    background-color: var(--azul);
+    border: none;
+    color: var(--branco);
+}
+
+.navbar__btn:focus {
+    background-color: #0528a7;
+    border: none;
+    color: var(--branco);
+}
+
+@media screen and (max-width: 768px) {
+    .navbar__lateral-itens {
+        background-color: #010614fc;
+    }
+}

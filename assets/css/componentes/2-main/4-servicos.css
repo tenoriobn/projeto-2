@@ -1,0 +1,51 @@
+.servicos {
+    margin-top: 3.5rem!important;
+}
+
+.servicos__questao {
+    color: var(--amarelo);
+    font-family: var(--poppins);   
+    font-weight: 600;
+}
+
+.servicos__subtitulo {
+    color: var(--azul-escuro);
+    font-family: var(--poppins);   
+
+    padding-bottom: 1rem!important;
+
+    width: 17.75rem;
+}
+
+.card__itens {
+    border: none;
+}
+
+.servicos__card-img {
+    width: 56px;
+    height: 56px;
+}
+
+.card__titulo {
+    color: var(--azul-escuro);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.card__paragrafo {
+    color: var(--roxo-claro);
+    font-weight: 500;
+    line-height: 1.505rem;
+}
+
+@media screen and (min-width: 768px) {
+    .servicos__subtitulo {
+        width: 25.75rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .servicos__subtitulo {
+        width: 15.75rem;
+    }
+}

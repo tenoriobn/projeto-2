@@ -1,0 +1,25 @@
+.categorias {
+    padding-top: 2.5rem!important;
+}
+
+.categorias__subtitulo {
+    color: var(--azul-escuro);
+    font-family: var(--poppins);   
+
+    padding-bottom: 1rem!important;
+
+    width: 18.75rem;
+}
+
+.categorias--link {
+    color: var(--azul);
+    line-height: 1.208rem;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .categorias__subtitulo {
+        font-size: 1.6rem!important;
+        width: 40rem;
+    }
+}
